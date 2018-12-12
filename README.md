@@ -23,5 +23,5 @@ This is the MEDSL repository for official returns for the 2018 Midterm Elections
 
 ## Hawaii
 
-* Added 2018-12-06.
-* Contains overall returns for house district, senate, and state office races by mode
+* Added 2018-12-12.
+* Contains overall and county returns for house district, senate, and state office races by mode
