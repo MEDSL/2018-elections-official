@@ -95,5 +95,10 @@ The variables are listed as they appear in the data file.
 
 ----------------
 
+### unofficial
+- **Description**: TRUE/FALSE indicator for unofficial result (to be updated later)
+
+----------------
+
 ### version  
 - **Description**: date when this dataset was finalize
