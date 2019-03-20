@@ -43,3 +43,8 @@ The `state_overall_2018` and `county_2018` datasets contain constituency level s
 * Washington
 * West Virginia
 * Wisconsin
+
+The `precinct_2018` dataset contains precinct level election returns for all offices. It is also incomplete but will be updated biweekly until completion. The following (2) states are complete:
+
+* Alaska
+* Delaware
