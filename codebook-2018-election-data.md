@@ -1,6 +1,6 @@
 # Codebook for 2018 Election Offical Data
 
-The data files `senate_overall_2018`, `district_overall_2018`, `state_overall_2018`, and `county_2018` contain official returns for elections returns in 2018. The `state_overall_2018` and `county_2018` files are incomplete but will be updated every week until completion. Files that begin with senate_ contain data for U.S. Senate elections, files that begin with district_ contain data for U.S. House elections, and files that begin with state_ contain data for state office elections. The county dataset contains all three. Files for overall results show constituency-level returns, and where available, these are broken down into county level returns in the county files. The source of the data is each state's Secretary of State website or comparable elections division page on an official state website. Returns for some states are separated by mode of voting (e.g. election day, absentee, etc.), as indicated by the `mode` variable in the dataset.
+The data files `senate_overall_2018`, `district_overall_2018`, `state_overall_2018`, `county_2018`, and `precinct_2018` contain official returns for elections returns in 2018. The `state_overall_2018`, `county_2018`, and `precinct_2018` files are incomplete but will be updated every week until completion. Files that begin with senate_ contain data for U.S. Senate elections, files that begin with district_ contain data for U.S. House elections, and files that begin with state_ contain data for state office elections. The county and precinct datasets contains all three. Files for overall results show constituency-level returns, and where available, these are broken down into county level returns in the county files. The source of the data is each state's Secretary of State website or comparable elections division page on an official state website. Returns for some states are separated by mode of voting (e.g. election day, absentee, etc.), as indicated by the `mode` variable in the dataset.
 
 ## Variables
 The variables are listed as they appear in the data file. 
@@ -37,6 +37,11 @@ The variables are listed as they appear in the data file.
 
 ### county
  - **Description**: county name
+
+-----------------
+
+### jurisdiction
+ - **Description**: in precinct file, county name (except in Alaska, where results are reported by state legislative district)
 
 -----------------
 
@@ -101,4 +106,9 @@ The variables are listed as they appear in the data file.
 ----------------
 
 ### version  
-- **Description**: date when this dataset was finalize
+- **Description**: date when this dataset was finalized
+
+----------------
+
+### dataverse  
+- **Description**: in precinct file, whether this election corresponds to elections in the Senate ("senate"), US House ("house"), or state ("state") files, or none of these ("local")
