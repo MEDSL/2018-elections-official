@@ -6,8 +6,9 @@ The `senate_overall_2018` and `district_overall_2018` datasets, containing const
 
 The `state_overall_2018` and `county_2018` datasets contain constituency level state office election returns and county level election returns for all offices, respectively. These are incomplete but will be updated often until completion. All states except Maine, Mississippi, New Mexico, and South Dakota are complete (46 in total).
 
-The `precinct_2018` dataset contains precinct level election returns for all offices. It is also incomplete but will be updated biweekly until completion. The following (3) states are complete:
+The `precinct_2018` dataset contains precinct level election returns for all offices. It is also incomplete but will be updated biweekly until completion. The following (4) states are complete:
 
 * Alaska
 * Colorado
 * Delaware
+* Georgia
