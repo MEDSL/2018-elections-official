@@ -13,3 +13,5 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Colorado
 * Delaware
 * Georgia
+
+The precinct data are a work in progress, and we welcome feedback. In particular, there are several discrepancies between the Alabama data and the precinct-level results (we are missing about 1000 votes in Chilton County, about 500 votes in Dallas County, and write-ins by precinct in Covington, Escambia, Lauderdale, Monroe, Pickens, and Russell Counties)---if anyone has information on or knows where to find the missing votes, please let us know.
