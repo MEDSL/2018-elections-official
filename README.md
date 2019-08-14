@@ -20,9 +20,11 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Georgia
 * Hawaii
 * Idaho
+* Illinois
 * Louisiana
 * Maryland
 * Massachusetts
+* Michigan
 * Montana
 * New Mexico
 * North Carolina
@@ -30,6 +32,7 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * South Carolina
 * Tennessee
 * Virginia
+* Washington
 * Wisconsin
 * Wyoming
 
