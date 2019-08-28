@@ -6,7 +6,7 @@ The `senate_overall_2018` and `district_overall_2018` datasets, containing const
 
 The `state_overall_2018` and `county_2018` datasets contain constituency level state office election returns and county level election returns for all offices, respectively.
 
-The `precinct_2018` dataset contains precinct level election returns for all offices. It is incomplete but will be updated weekly until completion. The following (31) states and districts are included in the dataset:
+The `precinct_2018` dataset contains precinct level election returns for all offices. It is incomplete but will be updated weekly until completion. The following (32) states and districts are included in the dataset:
 
 * Alabama
 * Alaska
@@ -25,6 +25,7 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Maryland
 * Massachusetts
 * Michigan
+* Missouri
 * Montana
 * New Jersey
 * New Mexico
