@@ -43,4 +43,4 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Wisconsin
 * Wyoming
 
-The precinct data are a work in progress, and we welcome feedback. 
+The precinct data are a work in progress, and we welcome feedback. Note: for data we obtained for New York, many counties are incomplete or missing entirely, so we have not posted data for the state.
