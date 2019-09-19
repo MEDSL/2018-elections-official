@@ -28,6 +28,7 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Minnesota
 * Missouri
 * Montana
+* Nevada
 * New Jersey
 * New Mexico
 * North Carolina
