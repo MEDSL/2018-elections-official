@@ -32,6 +32,7 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * New Jersey
 * New Mexico
 * North Carolina
+* North Dakota
 * Oklahoma
 * Oregon
 * Rhode Island
