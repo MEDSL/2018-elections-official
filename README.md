@@ -6,7 +6,7 @@ The `senate_overall_2018` and `district_overall_2018` datasets, containing const
 
 The `state_overall_2018` and `county_2018` datasets contain constituency level state office election returns and county level election returns for all offices, respectively.
 
-The `precinct_2018` dataset contains precinct level election returns for all offices. It is incomplete but will be updated weekly until completion. The following (42) states and districts are included in the dataset:
+The `precinct_2018` dataset contains precinct level election returns for all offices. It is incomplete but will be updated weekly until completion. The following (43) states and districts are included in the dataset:
 
 * Alabama
 * Alaska
@@ -41,6 +41,7 @@ The `precinct_2018` dataset contains precinct level election returns for all off
 * Ohio
 * Oklahoma
 * Oregon
+* Pennsylvania
 * Rhode Island
 * South Carolina
 * Tennessee
@@ -58,3 +59,4 @@ The precinct data are a work in progress, and we welcome feedback. Below are som
 - North Dakota data includes only major national and state offices; other offices will be added later.
 - Aggregated results from the Kansas data to not match official results posted by the state, as it appears results for Kiowa County were double-counted (but were correct in the precinct data we used from the state).
 - In New Hampshire data, results for State House district Coos 7 are off from summed totals reported by the state. However, based upon the individual precinct data, this error appears to be due to a formula error in the Excel spreadsheet used by the state to report election results. Therefore, the precinct results provided within the dataset are correct.
+- We obtained data for Pennsylvania from the Secretary of State office. Candidate vote totals for some offices had a few discrepancies. For US House District 11, Jessica King's total is over the official total by 1,918 and Lloyd Smucker's total is under by 37 votes; these discrepancies are confined to York County. For Governor, Thomas Wolf's total is over by 196 votes, Scott Wagner's total is over by 287, Paul Glover's total is over by 5, and Kenneth Krawchuk's total is over by 3. For US Senate, Robert Casey's total is over by 178 votes, Louis Barletta's total is over by 301, Neal Taylor Gale's total is over by 3, and Dale Kerns's is over by 8. For both Governor and US Senate, the only county that's off and is contributing to the overall errors is Westmoreland.
