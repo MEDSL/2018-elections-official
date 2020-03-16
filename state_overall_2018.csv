@@ -10688,18 +10688,358 @@
 2018,"Mississippi","MS",28,64,46,"State Representative","District 85","gen",FALSE,"Jo Ann Collins-Smith","nonpartisan",FALSE,"total",1955,5664,FALSE,20190430
 2018,"Mississippi","MS",28,64,46,"State Representative","District 85","gen",FALSE,"Maurice Hudson","nonpartisan",FALSE,"total",669,5664,FALSE,20190430
 2018,"Mississippi","MS",28,64,46,"State Representative","District 85","gen",FALSE,"Tyler K. Doss","nonpartisan",FALSE,"total",1388,5664,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,NA,NA,TRUE,"total",0,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Arnie C. AC Dienoff",NA,TRUE,"total",0,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Don Fitz","green",FALSE,"total",9280,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Jacob Luetkemeyer","constitution",FALSE,"total",28884,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Nicole Galloway","democrat",FALSE,"total",399968,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Saundra McDowell","republican",FALSE,"total",530468,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Sean O'Toole","libertarian",FALSE,"total",20184,988784,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Representative","District 3","gen",FALSE,"Danny Busick","republican",FALSE,"total",424676,779520,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Representative","District 3","gen",FALSE,"Joni Perry","democrat",FALSE,"total",354844,779520,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Representative","District 4","gen",FALSE,"Greg Sharpe","republican",FALSE,"total",172956,172956,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Senator","District 18","gen",FALSE,"Cindy O'Laughlin","republican",FALSE,"total",595892,988088,FALSE,20190430
-2018,"Missouri","MO",29,43,34,"State Senator","District 18","gen",FALSE,"Crystal Stephens","democrat",FALSE,"total",392196,988088,FALSE,20190430
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,NA,NA,TRUE,"total",0,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Arnie C. AC Dienoff",NA,TRUE,"total",4,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Don Fitz","green",FALSE,"total",17106,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Jacob Luetkemeyer","constitution",FALSE,"total",50951,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Nicole Galloway","democrat",FALSE,"total",1209881,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Saundra McDowell","republican",FALSE,"total",1070701,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Auditor","statewide","gen",FALSE,"Sean O'Toole","libertarian",FALSE,"total",51304,2399947,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 1","gen",FALSE,"Allen Andrews","republican",FALSE,"total",10023,12695,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 1","gen",FALSE,"Paul Taylor","democrat",FALSE,"total",2672,12695,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 10","gen",FALSE,"Bill Falkner","republican",FALSE,"total",5753,9897,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 10","gen",FALSE,"Shane R. Thompson","democrat",FALSE,"total",4144,9897,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 100","gen",FALSE,"Derek Grier","republican",FALSE,"total",11137,20106,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 100","gen",FALSE,"Helena Webb","democrat",FALSE,"total",8969,20106,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 101","gen",FALSE,"Bruce DeGroot","republican",FALSE,"total",12136,18807,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 101","gen",FALSE,"Genevieve Steidtmann","democrat",FALSE,"total",6671,18807,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 102","gen",FALSE,"John F. Foster","democrat",FALSE,"total",7184,18067,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 102","gen",FALSE,"Ron Hicks","republican",FALSE,"total",10883,18067,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 103","gen",FALSE,"Jim Klenc","democrat",FALSE,"total",7289,18632,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 103","gen",FALSE,"John D. Wiemann","republican",FALSE,"total",11343,18632,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 104","gen",FALSE,"Adam Schnelting","republican",FALSE,"total",9663,17170,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 104","gen",FALSE,"Peggy Sherwin","democrat",FALSE,"total",7507,17170,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 105","gen",FALSE,"Bill Slantz","libertarian",FALSE,"total",398,18749,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 105","gen",FALSE,"Phil Christofanelli","republican",FALSE,"total",10410,18749,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 105","gen",FALSE,"Scott Cernicek","democrat",FALSE,"total",7941,18749,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 106","gen",FALSE,"Chrissy Sommer","republican",FALSE,"total",8784,15246,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 106","gen",FALSE,"Jackie Sclair","democrat",FALSE,"total",6462,15246,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 107","gen",FALSE,"Curtis Wylde","democrat",FALSE,"total",6758,16517,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 107","gen",FALSE,"Nick Schroer","republican",FALSE,"total",9759,16517,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 108","gen",FALSE,"Betty Vining","democrat",FALSE,"total",6967,18064,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 108","gen",FALSE,"Justin Hill","republican",FALSE,"total",11097,18064,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 109","gen",FALSE,"James Cordrey","democrat",FALSE,"total",5180,15633,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 109","gen",FALSE,"John Simmons","republican",FALSE,"total",10453,15633,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 11","gen",FALSE,"Brady Lee O'Dell","democrat",FALSE,"total",4856,14000,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 11","gen",FALSE,"Brenda Shields","republican",FALSE,"total",9144,14000,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 110","gen",FALSE,"Cody Kelley","democrat",FALSE,"total",6418,17261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 110","gen",FALSE,"Dottie Bailey","republican",FALSE,"total",10843,17261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 111","gen",FALSE,"Phoebe Ottomeyer","democrat",FALSE,"total",5212,15038,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 111","gen",FALSE,"Shane Roden","republican",FALSE,"total",9826,15038,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 112","gen",FALSE,"Benjamin Hagin","democrat",FALSE,"total",6074,15695,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 112","gen",FALSE,"Rob Vescovo","republican",FALSE,"total",9621,15695,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 113","gen",FALSE,"Dan Shaul","republican",FALSE,"total",7940,14049,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 113","gen",FALSE,"Karen Settlemoir-Berg","democrat",FALSE,"total",6109,14049,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 114","gen",FALSE,"Becky Ruth","republican",FALSE,"total",9664,14288,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 114","gen",FALSE,"Dennis McDonald","democrat",FALSE,"total",4624,14288,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 115","gen",FALSE,"Elaine Freeman Gannon","republican",FALSE,"total",10598,10598,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 116","gen",FALSE,NA,NA,TRUE,"total",0,14889,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 116","gen",FALSE,"Bill Kraemer","democrat",FALSE,"total",5354,14889,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 116","gen",FALSE,"Dale L. Wright","republican",FALSE,"total",9531,14889,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 116","gen",FALSE,"Perry D. Willmore",NA,TRUE,"total",4,14889,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 117","gen",FALSE,"Kayla Chick","democrat",FALSE,"total",3168,11337,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 117","gen",FALSE,"Mike Henderson","republican",FALSE,"total",8169,11337,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 118","gen",FALSE,"Barbara Marco","democrat",FALSE,"total",4309,12524,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 118","gen",FALSE,"Mike McGirl","republican",FALSE,"total",8215,12524,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 119","gen",FALSE,"Marcie Nichols","democrat",FALSE,"total",3776,12940,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 119","gen",FALSE,"Nate Tate","republican",FALSE,"total",9164,12940,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 12","gen",FALSE,"Kenneth Wilson","republican",FALSE,"total",10375,17115,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 12","gen",FALSE,"Sandy Van Wagner","democrat",FALSE,"total",6740,17115,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 120","gen",FALSE,"Jason Chipman","republican",FALSE,"total",9479,13410,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 120","gen",FALSE,"Theresa Schmitt","democrat",FALSE,"total",3931,13410,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 121","gen",FALSE,"Don Mayhew","republican",FALSE,"total",7996,11540,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 121","gen",FALSE,"Matt Heltz","democrat",FALSE,"total",3544,11540,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 122","gen",FALSE,"Steve Lynch","republican",FALSE,"total",5661,5661,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 123","gen",FALSE,"Joe Register","democrat",FALSE,"total",3309,14915,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 123","gen",FALSE,"Suzie Pollock","republican",FALSE,"total",11606,14915,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 124","gen",FALSE,"Rocky Miller","republican",FALSE,"total",13009,16523,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 124","gen",FALSE,"Steve Dakopolos","democrat",FALSE,"total",3514,16523,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 125","gen",FALSE,"Chase Crawford","democrat",FALSE,"total",5443,15181,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 125","gen",FALSE,"Warren D. Love","republican",FALSE,"total",9738,15181,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 126","gen",FALSE,"Jim Hogan","democrat",FALSE,"total",2919,13230,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 126","gen",FALSE,"Patricia Pike","republican",FALSE,"total",9905,13230,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 126","gen",FALSE,"Stephen Biles","constitution",FALSE,"total",406,13230,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 127","gen",FALSE,"Ann Kelley","republican",FALSE,"total",12276,14810,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 127","gen",FALSE,"Teri Hanna","democrat",FALSE,"total",2534,14810,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 128","gen",FALSE,"Mike Stephens","republican",FALSE,"total",11153,14057,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 128","gen",FALSE,"Rich Horton","democrat",FALSE,"total",2904,14057,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 129","gen",FALSE,"Jeff Knight","republican",FALSE,"total",10502,14007,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 129","gen",FALSE,"Ronna Ford","democrat",FALSE,"total",3505,14007,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 13","gen",FALSE,"Mitch Weber","democrat",FALSE,"total",8864,19439,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 13","gen",FALSE,"Vic Allred","republican",FALSE,"total",10575,19439,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 130","gen",FALSE,"Jeff Messenger","republican",FALSE,"total",11325,15890,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 130","gen",FALSE,"Tyler Gunlock","democrat",FALSE,"total",4565,15890,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 131","gen",FALSE,"Nate Branscom","democrat",FALSE,"total",4387,13440,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 131","gen",FALSE,"Sonya Murray Anderson","republican",FALSE,"total",9053,13440,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 132","gen",FALSE,"Crystal Quade","democrat",FALSE,"total",5383,8365,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 132","gen",FALSE,"Sarah Semple","republican",FALSE,"total",2982,8365,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 133","gen",FALSE,"Cindy Slimp","democrat",FALSE,"total",5831,16361,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 133","gen",FALSE,"Curtis D. Trent","republican",FALSE,"total",10530,16361,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 134","gen",FALSE,"Derrick Nowlin","democrat",FALSE,"total",6575,15278,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 134","gen",FALSE,"Elijah Haahr","republican",FALSE,"total",8703,15278,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 135","gen",FALSE,"Rob Bailey","democrat",FALSE,"total",6985,14806,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 135","gen",FALSE,"Steve Helms","republican",FALSE,"total",7821,14806,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 136","gen",FALSE,"J. Craig Fishel","republican",FALSE,"total",11577,20238,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 136","gen",FALSE,"Jeff Munzinger","democrat",FALSE,"total",8661,20238,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 137","gen",FALSE,"John F. Black","republican",FALSE,"total",13360,17803,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 137","gen",FALSE,"Raymond Lampert","democrat",FALSE,"total",4443,17803,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 138","gen",FALSE,"Brad Hudson","republican",FALSE,"total",14734,14734,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 139","gen",FALSE,"Cora Hanf","democrat",FALSE,"total",4232,17018,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 139","gen",FALSE,"Jered Taylor","republican",FALSE,"total",12786,17018,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 14","gen",FALSE,"Kevin Corlew","republican",FALSE,"total",8904,17893,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 14","gen",FALSE,"Matt Sain","democrat",FALSE,"total",8989,17893,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 140","gen",FALSE,"Lynn Morris","republican",FALSE,"total",12292,16729,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 140","gen",FALSE,"Robert Debbaut","green",FALSE,"total",446,16729,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 140","gen",FALSE,"Tony Smith","democrat",FALSE,"total",3991,16729,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 141","gen",FALSE,"Hannah Kelly","republican",FALSE,"total",11516,11516,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 142","gen",FALSE,"Robert Ross","republican",FALSE,"total",10412,10412,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 143","gen",FALSE,"Jeffrey Pogue","republican",FALSE,"total",11009,11009,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 144","gen",FALSE,"Chris Dinkins","republican",FALSE,"total",9782,9782,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 145","gen",FALSE,"Rick Francis","republican",FALSE,"total",11381,13826,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 145","gen",FALSE,"Ronald G. Pember","democrat",FALSE,"total",2445,13826,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 146","gen",FALSE,"Barry D. Hovis","republican",FALSE,"total",15289,18670,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 146","gen",FALSE,"Gayla A. Dace","democrat",FALSE,"total",3381,18670,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 147","gen",FALSE,"Kathy Swan","republican",FALSE,"total",8616,13301,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 147","gen",FALSE,"Renita Green","democrat",FALSE,"total",4685,13301,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 148","gen",FALSE,"Holly Rehder","republican",FALSE,"total",10937,10937,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 149","gen",FALSE,"Bill Burlison","democrat",FALSE,"total",2938,10121,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 149","gen",FALSE,"Don Rone","republican",FALSE,"total",6633,10121,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 149","gen",FALSE,"Jackie Townes McGee","independent",FALSE,"total",550,10121,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 15","gen",FALSE,"Jon Carpenter","democrat",FALSE,"total",9281,14692,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 15","gen",FALSE,"Steve West","republican",FALSE,"total",5411,14692,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 150","gen",FALSE,"Andrew McDaniel","republican",FALSE,"total",6525,8657,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 150","gen",FALSE,"Josh Rittenberry","democrat",FALSE,"total",2132,8657,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 151","gen",FALSE,"Herman Morse","republican",FALSE,"total",10270,13101,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 151","gen",FALSE,"J. T. (Jerry) Howard","democrat",FALSE,"total",2455,13101,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 151","gen",FALSE,"Rick Vandeven","libertarian",FALSE,"total",376,13101,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 152","gen",FALSE,"Hardy Billington","republican",FALSE,"total",7373,10680,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 152","gen",FALSE,"Robert L. Smith","democrat",FALSE,"total",3307,10680,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 153","gen",FALSE,"Jeff Shawan","republican",FALSE,"total",9717,13048,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 153","gen",FALSE,"Matt Michel","democrat",FALSE,"total",3331,13048,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 154","gen",FALSE,"David Evans","republican",FALSE,"total",11628,11628,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 155","gen",FALSE,"Karla Eslinger","republican",FALSE,"total",12778,12778,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 156","gen",FALSE,"Jeff Justus","republican",FALSE,"total",12891,12891,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 157","gen",FALSE,"Loretta Thomas","democrat",FALSE,"total",2819,13370,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 157","gen",FALSE,"Mike Moon","republican",FALSE,"total",10551,13370,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 158","gen",FALSE,"Scott Fitzpatrick","republican",FALSE,"total",11348,11348,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 159","gen",FALSE,"Dirk E. Deaton","republican",FALSE,"total",9207,11255,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 159","gen",FALSE,"Jerry Sparks","democrat",FALSE,"total",2048,11255,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 16","gen",FALSE,"Noel J Shull","republican",FALSE,"total",10771,19517,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 16","gen",FALSE,"Tom Gorenc","democrat",FALSE,"total",8746,19517,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 160","gen",FALSE,"Angela R Thomas","democrat",FALSE,"total",3476,14189,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 160","gen",FALSE,"Ben Baker","republican",FALSE,"total",10713,14189,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 161","gen",FALSE,"Elizabeth Lundstrum","democrat",FALSE,"total",3923,11885,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 161","gen",FALSE,"Lane Roberts","republican",FALSE,"total",7962,11885,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 162","gen",FALSE,"Mollie Dyer","green",FALSE,"total",367,13059,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 162","gen",FALSE,"Robert (Bob) Bromley","republican",FALSE,"total",8925,13059,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 162","gen",FALSE,"Sarah Hinkle","democrat",FALSE,"total",3767,13059,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 163","gen",FALSE,"Chad Fletcher","democrat",FALSE,"total",2698,12265,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 163","gen",FALSE,"Cody Smith","republican",FALSE,"total",9567,12265,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 17","gen",FALSE,"Mark Ellebracht","democrat",FALSE,"total",8649,15261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 17","gen",FALSE,"Mary Hill","republican",FALSE,"total",6612,15261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 18","gen",FALSE,"Sarah Mills","republican",FALSE,"total",6316,14674,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 18","gen",FALSE,"Wes Rogers","democrat",FALSE,"total",8358,14674,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 19","gen",FALSE,"Ingrid Burnett","democrat",FALSE,"total",4904,6180,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 19","gen",FALSE,"Val Engholm","green",FALSE,"total",1276,6180,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 2","gen",FALSE,"J. Eggleston","republican",FALSE,"total",10741,10741,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 20","gen",FALSE,"Bill E. Kidd","republican",FALSE,"total",8205,13060,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 20","gen",FALSE,"Jessica Merrick","democrat",FALSE,"total",4855,13060,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 21","gen",FALSE,"Robert Sauls","democrat",FALSE,"total",8202,8202,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 22","gen",FALSE,"Brandon Ellington","democrat",FALSE,"total",9610,9610,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 23","gen",FALSE,"Barbara Anne Washington","democrat",FALSE,"total",6634,7510,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 23","gen",FALSE,"David Martin","republican",FALSE,"total",573,7510,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 23","gen",FALSE,"Jeff Francis","independent",FALSE,"total",303,7510,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 24","gen",FALSE,"Judy Morgan","democrat",FALSE,"total",16750,16750,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 25","gen",FALSE,"Greg Razer","democrat",FALSE,"total",17598,17598,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 26","gen",FALSE,"Ashley Bland Manlove","democrat",FALSE,"total",12823,12823,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 27","gen",FALSE,"Richard Brown","democrat",FALSE,"total",10084,10084,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 28","gen",FALSE,"Jeremy T Utterback","libertarian",FALSE,"total",2627,12026,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 28","gen",FALSE,"Jerome Barnes","democrat",FALSE,"total",9399,12026,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 29","gen",FALSE,"Rory Rowland","democrat",FALSE,"total",10512,10512,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 3","gen",FALSE,"Danny Busick","republican",FALSE,"total",8051,11940,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 3","gen",FALSE,"Joni Perry","democrat",FALSE,"total",3889,11940,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 30","gen",FALSE,"Brad Eichstadt","libertarian",FALSE,"total",494,17725,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 30","gen",FALSE,"Jon Patterson","republican",FALSE,"total",9162,17725,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 30","gen",FALSE,"Ryana Parks-Shaw","democrat",FALSE,"total",8069,17725,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 31","gen",FALSE,"Dan Stacy","republican",FALSE,"total",8356,14955,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 31","gen",FALSE,"Travis Hagewood","democrat",FALSE,"total",6599,14955,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 32","gen",FALSE,"Janice Brill","democrat",FALSE,"total",5877,14951,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 32","gen",FALSE,"Jeff Coleman","republican",FALSE,"total",9074,14951,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 33","gen",FALSE,"Donna Pfautsch","republican",FALSE,"total",10579,14903,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 33","gen",FALSE,"Pat Williams","democrat",FALSE,"total",4324,14903,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 34","gen",FALSE,"James P. (Jim) Ripley","democrat",FALSE,"total",7816,16697,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 34","gen",FALSE,"Rebecca Roeber","republican",FALSE,"total",8881,16697,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 35","gen",FALSE,"Keri Ingle","democrat",FALSE,"total",9111,17135,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 35","gen",FALSE,"Tom Lovell","republican",FALSE,"total",8024,17135,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 36","gen",FALSE,"DaRon McGee","democrat",FALSE,"total",9822,12416,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 36","gen",FALSE,"Timothy Peterman","libertarian",FALSE,"total",2594,12416,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 37","gen",FALSE,"Joe Runions","democrat",FALSE,"total",9022,15271,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 37","gen",FALSE,"John D Boyd Jr","republican",FALSE,"total",6249,15271,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 38","gen",FALSE,"Abby Zavos","democrat",FALSE,"total",6823,16164,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 38","gen",FALSE,"Doug Richey","republican",FALSE,"total",9341,16164,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 39","gen",FALSE,"Peggy McGaugh","republican",FALSE,"total",9534,14245,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 39","gen",FALSE,"Rick Mellon","democrat",FALSE,"total",4711,14245,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 4","gen",FALSE,"Greg Sharpe","republican",FALSE,"total",10386,10386,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 40","gen",FALSE,"Jim Hansen","republican",FALSE,"total",11492,11492,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 41","gen",FALSE,"David A Beckham","democrat",FALSE,"total",4848,15460,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 41","gen",FALSE,"Randy Pietzman","republican",FALSE,"total",10612,15460,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 42","gen",FALSE,"Jeff Porter","republican",FALSE,"total",10765,15463,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 42","gen",FALSE,"Joseph Widner","democrat",FALSE,"total",4698,15463,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 43","gen",FALSE,"Jamie Blair","democrat",FALSE,"total",3442,12585,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 43","gen",FALSE,"Kent Haden","republican",FALSE,"total",9143,12585,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 44","gen",FALSE,"Cheri Toalson Reisch","republican",FALSE,"total",8365,14802,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 44","gen",FALSE,"Maren Bell Jones","democrat",FALSE,"total",6437,14802,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 45","gen",FALSE,"Kip Kendrick","democrat",FALSE,"total",9423,9423,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 46","gen",FALSE,"Cathy D. Richards","republican",FALSE,"total",5954,17790,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 46","gen",FALSE,"Martha Stevens","democrat",FALSE,"total",11548,17790,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 46","gen",FALSE,"William (Bill) Hastings","green",FALSE,"total",288,17790,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 47","gen",FALSE,"Adrian Plank","democrat",FALSE,"total",6916,15998,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 47","gen",FALSE,"Charles (Chuck) Basye","republican",FALSE,"total",9082,15998,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 48","gen",FALSE,"Dave Muntzel","republican",FALSE,"total",10135,13688,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 48","gen",FALSE,"Raymond (Jeff) Faubion","democrat",FALSE,"total",3553,13688,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 49","gen",FALSE,"Lisa Buhr","democrat",FALSE,"total",4581,13964,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 49","gen",FALSE,"Travis Fitzwater","republican",FALSE,"total",9383,13964,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 5","gen",FALSE,"Joe Frese","democrat",FALSE,"total",3984,14170,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 5","gen",FALSE,"Louis Riggs","republican",FALSE,"total",10186,14170,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 50","gen",FALSE,"Michela Skelton","democrat",FALSE,"total",8172,19893,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 50","gen",FALSE,"Sara Walsh","republican",FALSE,"total",11721,19893,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 51","gen",FALSE,"Dean A. Dohrman","republican",FALSE,"total",7668,11992,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 51","gen",FALSE,"Vince Lutterbie","democrat",FALSE,"total",3910,11992,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 51","gen",FALSE,"William Truman (Bill) Wayne","libertarian",FALSE,"total",414,11992,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 52","gen",FALSE,"Bradley Pollitt","republican",FALSE,"total",7997,11198,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 52","gen",FALSE,"Dan Marshall","democrat",FALSE,"total",3201,11198,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 53","gen",FALSE,"Connie Simmons","democrat",FALSE,"total",4357,14303,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 53","gen",FALSE,"Glen Kolkmeyer","republican",FALSE,"total",9946,14303,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 54","gen",FALSE,"Dan Houx","republican",FALSE,"total",9201,13067,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 54","gen",FALSE,"James L. Williams","democrat",FALSE,"total",3866,13067,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 55","gen",FALSE,"Mike Haffner","republican",FALSE,"total",13557,13557,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 56","gen",FALSE,"Jack Bondon","republican",FALSE,"total",11120,11120,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 57","gen",FALSE,"Joan Shores","democrat",FALSE,"total",3667,13938,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 57","gen",FALSE,"Rodger L. Reedy","republican",FALSE,"total",10271,13938,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 58","gen",FALSE,"David Wood","republican",FALSE,"total",11350,11350,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 59","gen",FALSE,"Linda Ellen Greeson","democrat",FALSE,"total",3770,15633,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 59","gen",FALSE,"Rudy L. Veit","republican",FALSE,"total",11863,15633,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 6","gen",FALSE,"Mitch Wrenn","democrat",FALSE,"total",3542,14353,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 6","gen",FALSE,"Tim Remole","republican",FALSE,"total",10811,14353,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 60","gen",FALSE,"Dave Griffith","republican",FALSE,"total",8944,15516,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 60","gen",FALSE,"Sara Michael","democrat",FALSE,"total",6572,15516,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 61","gen",FALSE,"Aaron D. Griesheimer","republican",FALSE,"total",11450,16091,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 61","gen",FALSE,"Pamela A. Menefee","democrat",FALSE,"total",4641,16091,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 62","gen",FALSE,"Ashley D. Fajkowski","democrat",FALSE,"total",2726,14854,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 62","gen",FALSE,"Tom Hurst","republican",FALSE,"total",12128,14854,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 63","gen",FALSE,"Bryan Spencer","republican",FALSE,"total",12458,19758,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 63","gen",FALSE,"Carl-herman Freese","libertarian",FALSE,"total",356,19758,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 63","gen",FALSE,"Janet Kester","democrat",FALSE,"total",6944,19758,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 64","gen",FALSE,"Shawn Finklein","democrat",FALSE,"total",6583,17121,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 64","gen",FALSE,"Tony Lovasco","republican",FALSE,"total",10538,17121,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 65","gen",FALSE,"Bill Otto","democrat",FALSE,"total",7973,16261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 65","gen",FALSE,"Tom Hannegan","republican",FALSE,"total",8288,16261,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 66","gen",FALSE,NA,NA,TRUE,"total",0,10376,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 66","gen",FALSE,"Theo (Ted) Brown Sr",NA,TRUE,"total",2,10376,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 66","gen",FALSE,"Tommie Pierson, Jr.","democrat",FALSE,"total",10374,10376,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 67","gen",FALSE,"Alan K. Green","democrat",FALSE,"total",14807,17285,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 67","gen",FALSE,"Patti Longworth","republican",FALSE,"total",2478,17285,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 68","gen",FALSE,"Jay Mosley","democrat",FALSE,"total",12417,12417,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 69","gen",FALSE,"Adam Jenning","republican",FALSE,"total",4130,14824,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 69","gen",FALSE,"Eric S. Harris","libertarian",FALSE,"total",327,14824,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 69","gen",FALSE,"Gretchen Bangert","democrat",FALSE,"total",10367,14824,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 7","gen",FALSE,"Dennis VanDyke","democrat",FALSE,"total",2501,12264,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 7","gen",FALSE,"Rusty Black","republican",FALSE,"total",9763,12264,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 70","gen",FALSE,"Carol Hexem","green",FALSE,"total",195,16070,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 70","gen",FALSE,"Mark Matthiesen","republican",FALSE,"total",7882,16070,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 70","gen",FALSE,"Paula Brown","democrat",FALSE,"total",7993,16070,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 71","gen",FALSE,"LaDonna Appelbaum","democrat",FALSE,"total",10752,13943,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 71","gen",FALSE,"LaDonna Higgins","libertarian",FALSE,"total",3191,13943,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 72","gen",FALSE,"Bruce Buwalda","republican",FALSE,"total",4942,13542,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 72","gen",FALSE,"Doug Clemens","democrat",FALSE,"total",8600,13542,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 73","gen",FALSE,"Raychel Proudie","democrat",FALSE,"total",9475,9475,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 74","gen",FALSE,"Cora Faith Walker","democrat",FALSE,"total",9856,9856,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 75","gen",FALSE,"Alan Gray","democrat",FALSE,"total",11427,11427,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 76","gen",FALSE,"Chris Carter","democrat",FALSE,"total",10444,10444,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 77","gen",FALSE,"Steve Roberts","democrat",FALSE,"total",10834,10834,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 78","gen",FALSE,"Bruce Franks Jr.","democrat",FALSE,"total",9935,9935,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 79","gen",FALSE,"Dan Elder","libertarian",FALSE,"total",1372,13309,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 79","gen",FALSE,"LaKeySha Bosley","democrat",FALSE,"total",11937,13309,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 8","gen",FALSE,"Caleb McKnight","democrat",FALSE,"total",4289,15195,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 8","gen",FALSE,"James W. (Jim) Neely","republican",FALSE,"total",10906,15195,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 80","gen",FALSE,"Peter Merideth","democrat",FALSE,"total",13827,13827,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 81","gen",FALSE,"Steve Butz","democrat",FALSE,"total",9789,9789,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 82","gen",FALSE,"Donna M.C. Baringer","democrat",FALSE,"total",12818,16836,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 82","gen",FALSE,"Erik Shelquist","republican",FALSE,"total",4018,16836,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 83","gen",FALSE,"Andrew Bolin","libertarian",FALSE,"total",3131,16843,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 83","gen",FALSE,"Gina Mitten","democrat",FALSE,"total",13712,16843,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 84","gen",FALSE,"Wiley Price IV","democrat",FALSE,"total",11679,11679,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 85","gen",FALSE,"Kevin L. Windham, Jr.","democrat",FALSE,"total",10457,12685,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 85","gen",FALSE,"Steven McKnight","republican",FALSE,"total",2228,12685,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 86","gen",FALSE,"Maria N. Chappelle-Nadal","democrat",FALSE,"total",13231,13231,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 87","gen",FALSE,"Ian Mackey","democrat",FALSE,"total",12950,19251,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 87","gen",FALSE,"Robert W. Warbin","green",FALSE,"total",185,19251,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 87","gen",FALSE,"Steven G. Bailey","republican",FALSE,"total",6116,19251,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 88","gen",FALSE,"Lloyd Nolan","republican",FALSE,"total",6761,19047,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 88","gen",FALSE,"Stephen Johnson","libertarian",FALSE,"total",281,19047,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 88","gen",FALSE,"Tracy McCreery","democrat",FALSE,"total",12005,19047,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 89","gen",FALSE,"Dean Plocher","republican",FALSE,"total",12922,22134,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 89","gen",FALSE,"Kevin FitzGerald","democrat",FALSE,"total",9212,22134,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 9","gen",FALSE,"Bob Bergland","democrat",FALSE,"total",5613,15932,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 9","gen",FALSE,"Sheila Solon","republican",FALSE,"total",10319,15932,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 90","gen",FALSE,"Deb Lavender","democrat",FALSE,"total",15809,15809,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 91","gen",FALSE,"James Scariot","libertarian",FALSE,"total",335,20614,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 91","gen",FALSE,"Jennifer Bird","republican",FALSE,"total",6740,20614,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 91","gen",FALSE,"Sarah Unsicker","democrat",FALSE,"total",13539,20614,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 92","gen",FALSE,"Bill Heisse","republican",FALSE,"total",6826,16907,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 92","gen",FALSE,"Doug Beck","democrat",FALSE,"total",10081,16907,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 93","gen",FALSE,"Bob Burns","democrat",FALSE,"total",9436,9436,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 94","gen",FALSE,"Jean Pretto","democrat",FALSE,"total",7392,15131,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 94","gen",FALSE,"Jim Murphy","republican",FALSE,"total",7739,15131,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 95","gen",FALSE,"Michael A. ODonnell","republican",FALSE,"total",10418,17973,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 95","gen",FALSE,"Mike Walter","democrat",FALSE,"total",7555,17973,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 96","gen",FALSE,"David J. Gregory","republican",FALSE,"total",12071,20529,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 96","gen",FALSE,"Erica Hoffman","democrat",FALSE,"total",8458,20529,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 97","gen",FALSE,"Mary Elizabeth Coleman","republican",FALSE,"total",8045,14277,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 97","gen",FALSE,"Mike Revis","democrat",FALSE,"total",6232,14277,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 98","gen",FALSE,"Charles Triplett","democrat",FALSE,"total",7432,18939,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 98","gen",FALSE,"Shamed Dogan","republican",FALSE,"total",11507,18939,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 99","gen",FALSE,"Jean Evans","republican",FALSE,"total",9215,17382,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Representative","District 99","gen",FALSE,"Mike LaBozzetta","democrat",FALSE,"total",8167,17382,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 10","gen",FALSE,"Ayanna Shivers","democrat",FALSE,"total",20412,68734,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 10","gen",FALSE,"Jeanie Riddle","republican",FALSE,"total",48322,68734,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 12","gen",FALSE,"Dan Hegeman","republican",FALSE,"total",50035,69021,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 12","gen",FALSE,"Terry Richard","democrat",FALSE,"total",18986,69021,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 14","gen",FALSE,"Brian Williams","democrat",FALSE,"total",53234,53234,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 16","gen",FALSE,"Justin Dan Brown","republican",FALSE,"total",42382,60479,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 16","gen",FALSE,"Ryan Dillon","democrat",FALSE,"total",18097,60479,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 18","gen",FALSE,"Cindy O'Laughlin","republican",FALSE,"total",46263,65818,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 18","gen",FALSE,"Crystal Stephens","democrat",FALSE,"total",19555,65818,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 2","gen",FALSE,"Bob Onder","republican",FALSE,"total",52197,87455,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 2","gen",FALSE,"Patrice Billings","democrat",FALSE,"total",35258,87455,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 20","gen",FALSE,"Eric W. Burlison","republican",FALSE,"total",62209,84213,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 20","gen",FALSE,"Jim Billedo","democrat",FALSE,"total",22004,84213,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 22","gen",FALSE,"Paul Wieland","republican",FALSE,"total",40556,69537,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 22","gen",FALSE,"Richie Camden","libertarian",FALSE,"total",2078,69537,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 22","gen",FALSE,"Robert Butler","democrat",FALSE,"total",26903,69537,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 24","gen",FALSE,"Gregory B. Powers","republican",FALSE,"total",31153,83967,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 24","gen",FALSE,"Jill Schupp","democrat",FALSE,"total",51106,83967,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 24","gen",FALSE,"Jim Higgins","libertarian",FALSE,"total",1708,83967,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 26","gen",FALSE,"Dave Schatz","republican",FALSE,"total",53507,83744,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 26","gen",FALSE,"John Kiehne","democrat",FALSE,"total",30237,83744,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 28","gen",FALSE,"Joe Poor","democrat",FALSE,"total",14126,67818,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 28","gen",FALSE,"Sandy Crawford","republican",FALSE,"total",53692,67818,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 30","gen",FALSE,"Charlie Norr","democrat",FALSE,"total",30690,65677,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 30","gen",FALSE,"Lincoln Hough","republican",FALSE,"total",34987,65677,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 32","gen",FALSE,"Bill White","republican",FALSE,"total",48412,65669,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 32","gen",FALSE,"Carolyn McGowan","democrat",FALSE,"total",15140,65669,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 32","gen",FALSE,"Conon Gillis","green",FALSE,"total",2117,65669,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 34","gen",FALSE,"Martin T. Rucker II","democrat",FALSE,"total",35026,73680,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 34","gen",FALSE,"Tony Luetkemeyer","republican",FALSE,"total",38654,73680,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 4","gen",FALSE,"Karla May","democrat",FALSE,"total",56883,73810,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 4","gen",FALSE,"Robert J. Crump","republican",FALSE,"total",16927,73810,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 6","gen",FALSE,NA,NA,TRUE,"total",0,72356,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 6","gen",FALSE,"Christina Smith",NA,TRUE,"total",19,72356,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 6","gen",FALSE,"Mike Bernskoetter","republican",FALSE,"total",53004,72356,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 6","gen",FALSE,"Nicole Thompson","democrat",FALSE,"total",17808,72356,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 6","gen",FALSE,"Steven Wilson","libertarian",FALSE,"total",1525,72356,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 8","gen",FALSE,"Hillary Shields","democrat",FALSE,"total",34127,75277,FALSE,20200316
+2018,"Missouri","MO",29,43,34,"State Senator","District 8","gen",FALSE,"Mike Cierpiot","republican",FALSE,"total",41150,75277,FALSE,20200316
 2018,"Montana","MT",30,81,64,"State Representative","District 1","gen",FALSE,"Donald Coats","democrat",FALSE,"total",1118,4132,FALSE,20190430
 2018,"Montana","MT",30,81,64,"State Representative","District 1","gen",FALSE,"Steve Gunderson","republican",FALSE,"total",3014,4132,FALSE,20190430
 2018,"Montana","MT",30,81,64,"State Representative","District 10","gen",FALSE,"Bill Jones","libertarian",FALSE,"total",1100,5424,FALSE,20190430
