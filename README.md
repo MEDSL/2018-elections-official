@@ -95,6 +95,15 @@ Added 06-02-2021. Local data not included at the moment.
 * From the official Nevada 2018 Election results spreadsheet: "Note: In cases where the cumulative turnout for a precinct for a race or ballot question is greater than 0 but less than 10, the numbers have been replaced with an asterisk in order to protect the secrecy of a voter's ballot, as required by Nevada Law. As a result, the total for a precinct may be different from what is reported on official documents." 
 * We have included these cases in our cleaned results, replacing the asterisk with -1 to preserve the votes values as ints. These results should be dropped when aggregating results at the state/county level. Certain county aggregated results in affected races are marginally different from the official reported vote totals due to the masking of votes for privacy purposes.
 
+## New Jersey
+
+Updated data added 02-07-2022.
+
+* Raw precinct data acquired from openelections (https://github.com/openelections/openelections-data-nj/tree/master/2018/counties). Marginal discrepancies identified in Essex, Hunterdon, and Salem counties when compared to official SOS aggregated results. Here are a list of discrepancies for US Senate candidate Robert Menendez (SOS vs our data):
+- Essex: 		194,068 vs 193,796
+- Hunterdon: 	24,823 vs 24,865
+- Salem: 		9,060 vs 9,033
+
 ## New Mexico
 
 Updated data added 01-24-2022. Local data not included at the moment.
@@ -117,6 +126,10 @@ Updated data added 01-24-2022.
 
 Updated data added 01-24-2022.
 
+## Rhode Island
+
+Updated data added 02-07-2022.
+
 ## South Carolina
 
 Updated data added 01-24-2022. Local data not included at the moment.
@@ -129,6 +142,44 @@ Updated data added 01-24-2022. Local data not included at the moment.
 
 Updated data added 01-24-2022. Local data not included at the moment.
 
+## Texas
+Updated data added 02-07-2022.
+
+* Raw data from Texas Legislative Council.
+
+* precinct field is derived from taking 'CNTYVTD' and 'VTDKEY' and joining with the separator "_"
+
+* 4 files failed to download, so the following results are excluded.
+- Dallas County J. P. Pct.3 Pl.1
+- Bexar County Court At Law No.12
+- Dallas County J. P. Pct.2 Pl.1
+- Harris County J. P. Pct.7 Pl.2
+
+## Vermont
+
+Updated data added 02-07-2022.
+
+* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care of when aggregating votes. These towns are marked in the precinct column with " - FLOAT" and affect the following races:
+- Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
+- Bennington State Senate: Wilmington is in Windham County and votes for Bennington State Senator.
+- Caledonia State Senate: Bradford, Fairlee, West Fairlee, Newbury, Topsham, and Orange are in Orange County and vote for Caledonia State Senator.
+- Essex-Orleans State Senate: Wolcott is in Lamoille County and Montgomery and Richford are in Franklin County, and all vote for Essex-Orleans State Senator.
+- Franklin State Senate: Alburgh is in Grand Isle County and votes for Franklin State Senator.
+- Grand Isle State Senate: Colchester is in Chittenden County and votes for Grand Isle State Senator.
+- Windsor State Senate: Londonderry is in Windham County and Mount Holly is in Rutland County, and both vote for Windsor State Senator.
+
+## Virginia
+
+Updated data added 02-07-2022.
+
+## Utah
+
+Updated data added 02-07-2022.
+
+* There are "supressed" votes in Weber county for certain small precincts to protect privacy. The county totals in Weber are therefore undercounted when compared to official county level results. The votes in these precincts are coded as -1, and should be dropped prior to any aggregation. 
+
+* Other rows that are readme_checked == True are the result of PDF scraping errors. Major discrepancies with official results have been rectified, but some marginal discrepancies (off by no more than 5 votes with official results) remain. 
+
 ## Washington
 
 Updated data added 01-24-2022. Raw precinct data acquired from the Secretary of State wesbite at times have marginal discrepancies when aggregated and compared to statewide official totals.
@@ -140,4 +191,9 @@ Updated data added 01-24-2022.
 ## Wisconsin
 
 Updated data added 01-24-2022. Local data not included at the moment.
+
+## Wyoming
+
+Updated data added 02-07-2022.
+
 
