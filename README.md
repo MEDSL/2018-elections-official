@@ -52,6 +52,10 @@ Updated data added 01-24-2022.
 
 Updated data added 01-24-2022. Local data not included at the moment.
 
+## Iowa
+
+Updated data added 02-08-2022.
+
 ## Louisiana
 
 Updated data added 01-24-2022.
@@ -67,6 +71,20 @@ Updated data added 01-24-2022.
 ## Massachusetts
 
 Updated data added 01-24-2022. Local data not included at the moment.
+
+## Michigan
+
+Updated data added 02-08-2022.
+
+* Precinct data are taken from https://miboecfr.nictusa.com/cgi-bin/cfr/precinct_srch.cgi?elect_year_type=2018GEN&county_code=00&Submit=Search
+
+* Raw data includes rows with 0 votes even for locations where a race did not take place. For example, US House candidates will have the appropariate vote totals for precincts within the constituency and rows with 0 votes in precincts outside the constituency. Be sure to drop these rows if calcualting vote summary statistics like mean/median, othewise calculations will be biased.
+
+* Precinct data contain precinct "9999", which are "statistical adjustments" rows that must be carefully considered when aggregating vote totals by office/county. Aggregating to state/county level including these 9999 precincts leads to the exact official SOS vote totals. 
+* Vote totals aggregated by county that DO NOT include this 9999 precinct do not always match the official county totals for every race either. 
+* All rows that have a discrepancy when aggregated by county (without the 9999 precinct rows) are marked readme_check == "TRUE". 
+* More information about "9999" precincts and the nature of the discrepancies will be added to the README.md as we receive it.
+
 
 ## Minnesota
 
@@ -94,6 +112,10 @@ Added 06-02-2021. Local data not included at the moment.
 
 * From the official Nevada 2018 Election results spreadsheet: "Note: In cases where the cumulative turnout for a precinct for a race or ballot question is greater than 0 but less than 10, the numbers have been replaced with an asterisk in order to protect the secrecy of a voter's ballot, as required by Nevada Law. As a result, the total for a precinct may be different from what is reported on official documents." 
 * We have included these cases in our cleaned results, replacing the asterisk with -1 to preserve the votes values as ints. These results should be dropped when aggregating results at the state/county level. Certain county aggregated results in affected races are marginally different from the official reported vote totals due to the masking of votes for privacy purposes.
+
+## New Hampshire
+
+Updated data added 02-08-2022.
 
 ## New Jersey
 
@@ -125,6 +147,19 @@ Updated data added 01-24-2022.
 ## Oregon
 
 Updated data added 01-24-2022.
+
+## Pennsylvania
+
+Updated data added 02-08-2022.
+
+* The raw precinct data is provided by the Pennsylvania Department of State.
+* The precinct field is structured as:
+	- ['precinct_code']_['cong_district']['senate_district']['house_district']_['vtd_code']
+* The raw precinct data included a "Municipality Name" field, which has been stored in the "jurisdiction_name" field of our dataset. However, the "jurisdiction_fips" field is the same as the "county_fips" field, as there are no 10 digit jurisdiction FIPs codes associated with the provided municipalities. 
+* There are marginal discrepancies between the aggregated precinct results and the results from the Secretary of State’s website. Precinct results are uncertified and uncorrected for later updates during the certification process, whereas the state website results reflect certified returns. Certified SOS results include “grace period” ballots (ballots postmarked and received by the Friday after election day), while the precinct results in many counties often do not. Counties with discrepancies are flagged readme_check = True.
+
+* Here are the discrepancies by county for Governor (aggregated precinct data - official SOS results)
+	- WESTMORELAND (WAGNER +287, WOLF +196)
 
 ## Rhode Island
 
