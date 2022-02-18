@@ -6,9 +6,9 @@ This is the MEDSL repository for official precinct returns for 2018 General Elec
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
 
 
-States from this repository has been temporarily removed to investigate issues with duplicated rows and nearly duplicated rows. We are working to identify and correct the errors, which we have so far identified in the following states:
+States from this repository has been temporarily removed to investigate issues with duplicated rows and nearly duplicated rows. We are working to identify and correct the errors, and are working on these remaining states:
 
-* ['Alabama', 'Arizona', 'Connecticut', 'Florida', 'Illinois'', 'Kansas', 'Maryland', 'Michigan']
+* ['Alabama', 'Arizona', 'Florida', 'Indiana', 'Kentucky', 'North Carolina', 'New York']
 
 We hope to provide corrected data shortly, and until we do so, data pulled from this repository prior to January 20, 2022 should be used with caution. Please contact us at sbaltz@mit.edu if you have any questions.
 
@@ -32,6 +32,10 @@ Updated data added 01-24-2022. Local data not included at the moment.
 
 Updated data added 01-24-2022.
 
+## Connecticut
+
+Updated data added 02-18-2022.
+
 ## Delaware
 
 Updated data added 01-24-2022.
@@ -52,9 +56,19 @@ Updated data added 01-24-2022.
 
 Updated data added 01-24-2022. Local data not included at the moment.
 
+## Illinois
+
+Updated data added 02-18-2022.
+
 ## Iowa
 
 Updated data added 02-08-2022.
+
+## Kansas
+
+Updated data added 02-18-2022.
+
+* Note that raw data reporting format leads to inclusion of precincts with 0 votes. Handle with care if computing aggregate statistics like average vote total by candidate.
 
 ## Louisiana
 
@@ -67,6 +81,10 @@ Updated data added 01-24-2022.
 * Maine reports election results at the township level, rather at the precinct level. Township/municipality is treated as precinct in the cleaned data. 
 
 * Certain rows contain county-fips info in place of jurisdiction-fips info for one of two reasons: (1) Maine reports state UOCAVA vote totals for each candidate aggregated at the county level. (2) Township information for certain towns could not be matched to our jurisdiction-fips merger file. 
+
+## Maryland
+
+Updated data added 02-18-2022.
 
 ## Massachusetts
 
