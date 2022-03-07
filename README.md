@@ -8,17 +8,35 @@ This is the MEDSL repository for official precinct returns for 2018 General Elec
 
 States from this repository has been temporarily removed to investigate issues with duplicated rows and nearly duplicated rows. We are working to identify and correct the errors, and are working on these remaining states:
 
-* ['Alabama', 'Arizona', 'Florida', 'Indiana', 'Kentucky', 'North Carolina', 'New York']
+* ['Florida', 'Indiana', 'New York']
 
 We hope to provide corrected data shortly, and until we do so, data pulled from this repository prior to January 20, 2022 should be used with caution. Please contact us at sbaltz@mit.edu if you have any questions.
 
 
 The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
 
+## Alabama
+
+Updated data added 03-07-2022.
+
+* Small, marginal discrepancies are present between the raw aggregated precinct data from the state and the official reports. These discrepancies originate only from three counties: Chilton, Dallas, and Russell, and thus only affect offices with votes from those counties. Here are the county level discrepancies for the office of governor (official vs. our precinct data):
+* Ivey
+	- Chilton:	11291   vs 10487
+	- Dallas:	4917	vs 4542
+	- Russell:	7168	vs 7166
+
+* Maddox
+	- Chilton:	2501    vs 2347
+	- Dallas:	10295	vs 9968
+	- Russell:	7864	vs 7861
 
 ## Alaska
 
 Updated data added 01-24-2022. Local data not included at the moment.
+
+## Arizona
+
+Updated data added 03-07-2022.
 
 ## Arkansas
 
@@ -43,6 +61,18 @@ Updated data added 01-24-2022.
 ## District of Columbia
 
 Updated data added 01-24-2022.
+
+## Florida
+
+Updated data added 03-07-2022.
+
+* Raw data acquired from: https://www.dos.myflorida.com/elections/data-statistics/elections-data/precinct-level-election-results/
+
+* The precinct field is a combination of the 'Precinct Polling Location' and 'Unique Precinct Identifier', separated by an underscore "_"
+
+* Results for Miami-Dade were sourced separately, directly from the Miami-Dade county (official results contained anomolous duplicates). The format of the precinct field is therefore different from the other counties. 
+* Very small, marginal discrepancies were discovered when comparing aggregate precinct results to the certified county results in the following offices: ['GOVERNOR', 'US SENATE', 'COMMISSIONER OF AGRICULTURE']. 
+
 
 ## Georgia
 
@@ -69,6 +99,10 @@ Updated data added 02-08-2022.
 Updated data added 02-18-2022.
 
 * Note that raw data reporting format leads to inclusion of precincts with 0 votes. Handle with care if computing aggregate statistics like average vote total by candidate.
+
+## Kentucky
+
+Updated data added 03-07-2022.
 
 ## Louisiana
 
@@ -150,6 +184,10 @@ Updated data added 01-24-2022. Local data not included at the moment.
 
 * New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
 
+## North Carolina
+
+Updated data added 03-07-2022.
+
 ## North Dakota
 
 Updated data added 01-24-2022. Local data not included at the moment.
@@ -203,23 +241,25 @@ Updated data added 02-07-2022.
 * precinct field is derived from taking 'CNTYVTD' and 'VTDKEY' and joining with the separator "_"
 
 * 4 files failed to download, so the following results are excluded.
-- Dallas County J. P. Pct.3 Pl.1
-- Bexar County Court At Law No.12
-- Dallas County J. P. Pct.2 Pl.1
-- Harris County J. P. Pct.7 Pl.2
+	- Dallas County J. P. Pct.3 Pl.1
+	- Bexar County Court At Law No.12
+	- Dallas County J. P. Pct.2 Pl.1
+	- Harris County J. P. Pct.7 Pl.2
 
 ## Vermont
 
-Updated data added 02-07-2022.
+Updated data added 03-07-2022.
 
-* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care of when aggregating votes. These towns are marked in the precinct column with " - FLOAT" and affect the following races:
-- Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
-- Bennington State Senate: Wilmington is in Windham County and votes for Bennington State Senator.
-- Caledonia State Senate: Bradford, Fairlee, West Fairlee, Newbury, Topsham, and Orange are in Orange County and vote for Caledonia State Senator.
-- Essex-Orleans State Senate: Wolcott is in Lamoille County and Montgomery and Richford are in Franklin County, and all vote for Essex-Orleans State Senator.
-- Franklin State Senate: Alburgh is in Grand Isle County and votes for Franklin State Senator.
-- Grand Isle State Senate: Colchester is in Chittenden County and votes for Grand Isle State Senator.
-- Windsor State Senate: Londonderry is in Windham County and Mount Holly is in Rutland County, and both vote for Windsor State Senator.
+* Vermont provides the township level data broken down further by representative districts within township. The precinct field is thus a combination of the "Township" and "Rep District" fields, separated by an underscore "_".
+
+* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care off when aggregating votes.
+	- Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
+	- Bennington State Senate: Wilmington is in Windham County and votes for Bennington State Senator.
+	- Caledonia State Senate: Bradford, Fairlee, West Fairlee, Newbury, Topsham are in Orange County and vote for Caledonia State Senator.
+	- Essex-Orleans State Senate: Wolcott is in Lamoille County and votes for Essex-Orleans State Senator.
+	- Franklin State Senate: Alburgh is in Grand Isle County and votes for Franklin State Senator.
+	- Grand Isle State Senate: Colchester is in Chittenden County and votes for Grand Isle State Senator.
+	- Windsor State Senate: Londonderry is in Windham County and votes for Windsor State Senator.
 
 ## Virginia
 
