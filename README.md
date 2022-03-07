@@ -8,7 +8,7 @@ This is the MEDSL repository for official precinct returns for 2018 General Elec
 
 States from this repository has been temporarily removed to investigate issues with duplicated rows and nearly duplicated rows. We are working to identify and correct the errors, and are working on these remaining states:
 
-* ['Florida', 'Indiana', 'New York']
+* ['Indiana', 'New York']
 
 We hope to provide corrected data shortly, and until we do so, data pulled from this repository prior to January 20, 2022 should be used with caution. Please contact us at sbaltz@mit.edu if you have any questions.
 
