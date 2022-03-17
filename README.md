@@ -3,15 +3,9 @@
 
 This is the MEDSL repository for official precinct returns for 2018 General Election.
 
- Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
+ Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the individual_states folder above.
 
-
-States from this repository has been temporarily removed to investigate issues with duplicated rows and nearly duplicated rows. We are working to identify and correct the errors, and are working on these remaining states:
-
-* ['Indiana', 'New York']
-
-We hope to provide corrected data shortly, and until we do so, data pulled from this repository prior to January 20, 2022 should be used with caution. Please contact us at sbaltz@mit.edu if you have any questions.
-
+![Screenshot](2018_precinct_progress_map_2022-03-17.png)
 
 The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
 
