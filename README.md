@@ -277,7 +277,7 @@ Updated data added 01-24-2022.
 
 ## Wisconsin
 
-Updated data added 01-24-2022. Local data not included at the moment.
+Updated data added 01-24-2022. Local data not included at the moment. Votes that are reported at the county level as "scattered" were not reported at the precinct level, so our totals are smaller than the county-level totals for statewide or federal offices by exactly the number of scatted votes (the Wisconsin statute defines scattered votes as votes for "individuals whose names do not appear on the ballot and who receive a comparatively small number of votes" https://docs.legis.wisconsin.gov/statutes/statutes/7/ii/75)
 
 ## Wyoming
 
