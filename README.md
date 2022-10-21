@@ -131,7 +131,6 @@ Updated data added 02-08-2022.
 * All rows that have a discrepancy when aggregated by county (without the 9999 precinct rows) are marked readme_check == "TRUE". 
 * More information about "9999" precincts and the nature of the discrepancies will be added to the README.md as we receive it.
 
-
 ## Minnesota
 
 Updated data added 01-24-2022.
@@ -177,6 +176,41 @@ Updated data added 02-07-2022.
 Updated data added 01-24-2022. Local data not included at the moment.
 
 * New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
+
+## New York
+
+Added data 10-20-2022. The raw data were gathered by OpenElections: https://github.com/openelections/openelections-data-ny/tree/master/2018
+
+Substantial portions of the state-supplied data had to be removed due to large and irreconcilable discrepancies between the reported precinct-level vote totals and the official county- or district-level vote totals. We believe that we have removed every race with severe discrepancies, but because of the magnitude of the errors in the original data, we urge users of this state's data to proceed with caution, and to independently check the vote totals for any races of interest. There are numerous discrepancies by office, and in many cases the discrepancies were so large that we simply omit any reporting from the race. We list those cases below.
+
+US SENATE county-level issues:
+* No results were reported from NIAGARA, results were insufficiently accurate in JEFFERSON
+* Minor discrepancies in DUTCHESS, ERIE, LEWIS, MADISON, MONROE, NASSAU, SCHUYLER, WARREN, WYOMING
+
+GOVERNOR county-level issues:
+* No results reported from ALLEGANY, GENESEE, ORANGE, SCHUYLER, SUFFOLK
+* Minor discrepancies in CORTLAND, DUTCHESS, JEFFERSON, LEWIS, NASSAU, OSWEGO, TIOGA, ULSTER, WYOMING
+
+US HOUSE district-level issues:
+* Results were insufficiently accurate in districts 18, 20, 21, 25 (just for candidate JOSEPH D MORELLE)
+* Minor discrepancies in districts 4, 14, 19, 22, 23, 27
+
+STATE SENATE district-level issues:
+* Results were insufficiently accurate in districts 46, 48
+* Minor discrepancies in districts 9, 19, 37, 40, 41, 42, 44, 45, 54, 55, 56, 57, 59, 63
+
+STATE HOUSE district-level issues:
+* No results were reported from districts 29, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 88, 89, 90, 91, 92, 93, 109, 123, 125, 141, 142, 143, 149, 150. Results were insufficiently accurate in districts 94, 95, 98, 99, 100, 101, 104, 108, 110, 111, 116, 117, 118, 119, 121, 122, 124, 130, 140, 144, 146, 147
+* Minor discrepancies in districts 102, 103, 105, 107, 114, 120, 126, 132, 145
+
+Users should also be aware of the following general issues:
+* We have dropped contests in districts or counties where the precinct-level vote totals are extremely different from the official county-wide or district-wide totals. **This must be taken into account when computing descriptive statistics**, or when using New York's 2018 vote counts as a variable in any analysis. The available data are systematically incomplete in ways that prevent users from straightforwardly computing, for example, the average vote share of Democratic candidates in state house races.
+* All meta-information, under/overvotes, and write-in numbers are retained as is. Because of the inconsistent structure of reporting, we were not able to verify the counts for this sort of information against certified results at the county or district level, and it should be assumed that there are discrepancies. Before including in any analysis the number of write-ins or the frequency of overvoting or undervoting, please independently verify the reported values
+* OVERVOTES and UNDERVOTES appear to sometimes be reported as the net number of undervotes, perhaps by subtracting the number of undervotes from the number of overvotes
+* The raw data contained 649 rows which were an exact duplicate of some other row in the dataset. By adding disambiguating information we were able to reduce the number of rows with a duplicate to 357, but those rows cannot be distinguished (and other rows are presumably being distinguished only by vote total when some other information should distinguish them as well)
+* The reported candidate names are sometimes blank for non-write-in candidates in the raw data. We retain these rows because the vote totals may refer to real votes, so users can attempt to impute the missing candidate names based on the vote totals and locations
+* RAYMOND W WALTER and KAREN M MCMAHON, opponents in a state house race, in some cases have their vote totals combined and reported together in one row
+* Note that state house results are dramatically incomplete, and that the incompleteness correlates with district number (likely this means that quality and completeness of reporting varied by region within the state)
 
 ## North Carolina
 
