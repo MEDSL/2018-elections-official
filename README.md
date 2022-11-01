@@ -84,6 +84,43 @@ Updated data added 01-24-2022. Local data not included at the moment.
 
 Updated data added 02-18-2022.
 
+## Indiana
+
+Data added 11-01-2022.
+
+* A precinct value of "Total" in the raw data has an inconsistent meaning, and no simple rule was successful in accounting for these rows. We have chosen to drop them, because aggregations of votes double-counts votes, and this was indeed the case in some counties. But in other cases, with no clear regularity, "Total" did not seem to refer to county-level aggregations. In particular,  when dropping these rows, US HOUSE races became substantially more accurate *except* district 6, which became much less accurate, while JOE DONNELLY's vote total in the US SENATE race went from being almost exactly correct to the discrepancy levels shown below. We choose to drop these rows because artifical aggregation precincts should in general not be retained, but users who wish to understand the problem better and potentially vary the decision are encouraged to access the replication code for this state.
+
+* We find the following discrepancies in US HOUSE vote totals (in the format: [district]. [ours] vs. [official])\
+&emsp;	2. JACKIE WALORSKI, 125097 vs. 125499\
+&emsp;	2. MEL HALL, 103168 vs. 103363\
+&emsp;	3. COURTNEY TRITCH, 82754 vs. 86610\
+&emsp;	3. JIM BANKS, 158937 vs. 158927\
+&emsp;	4. JIM BAIRD, 156591 vs. 156539\
+&emsp;	5. DEE THORNTON, 137028 vs. 137142\
+&emsp;	5. SUSAN W BROOKS, 179706 vs. 180035\
+&emsp;	6. GREG PENCE, 134634 vs. 154260\
+&emsp;	6. JEANNINE LEE LAKE, 70234 vs. 79430\
+&emsp;	6. TOM FERKINHOFF, 7064 vs. 8030\
+&emsp;	8. LARRY D BUCSHON, 154207 vs. 157396\
+&emsp;	8. WILLIAM TANOOS, 83070 vs. 86895\
+&emsp;	9. LIZ WATSON, 115073 vs. 118090\
+&emsp;	9. TREY HOLLINGSWORTH, 146879 vs. 153271
+
+* We were not able to perform county-level checks for US SENATE or state-level elections, because official county-level results are not available. For US SENATE we checked the aggregate candidate totals against the official statewide totals and find the following small statewide discrepancies:\
+&emsp;	MIKE BRAUN, 1151904 vs. 1158000\
+&emsp;	JOE DONNELLY, 1008030 vs. 1023553\
+&emsp;	LUCY M BRENTON, 16295 vs. 100942
+
+* Spot-checking suggests that state legislative races are largely accurate
+
+* We do not conduct vote aggregation checks for write-in candidates. They should not be expected in general to match.
+
+* In Tippecanoe county, four rows for state house have positive vote totals but no candidate name. We drop them.
+
+* In one precinct there is a vote total of -79 attached to the candidate CAST VOTES. We retain this row because it is unclear whether this is a typo or some kind of adjustment row.
+
+* 11 nearly duplicated rows, with all of the same information but different vote counts, were present in the original data. 10 of them are undervote totals for county council races in Johnson county, and lacking a canonical figure to compare them to, we cannot drop any of them. The remaining near-duplicate is MAURICE OAKEL FULLER's results in the state house race in one precinct in TIPPECANOE.
+
 ## Iowa
 
 Updated data added 02-08-2022.
