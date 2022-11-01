@@ -109,7 +109,7 @@ Data added 11-01-2022.
 * We were not able to perform county-level checks for US SENATE or state-level elections, because official county-level results are not available. For US SENATE we checked the aggregate candidate totals against the official statewide totals and find the following small statewide discrepancies:\
 &emsp;	MIKE BRAUN, 1151904 vs. 1158000\
 &emsp;	JOE DONNELLY, 1008030 vs. 1023553\
-&emsp;	LUCY M BRENTON, 16295 vs. 100942
+&emsp;	LUCY M BRENTON, 99732 vs. 100942
 
 * Spot-checking suggests that state legislative races are largely accurate
 
