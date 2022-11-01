@@ -99,7 +99,7 @@ string - The state's fips code, 2 digit string padded.
 string - The state's census code, 2 digit string padded.
 
 ### state_ic:
-string - Alternative state identity code, 2 digit string padded.
+string - The state's ICPSR code, 2 digit string padded.
 
 ### date: 
 string - The date of the election, formatted as %y-%m-%d.
