@@ -2,6 +2,14 @@ This README lists the dates that we finished cleaning each state's data, along w
 
 Note: When reading in data in Python, utilize "dtype" parameter of the "pd.read_csv()" command to retain proper formatting of string padded fields. The "dtype" parameter can be set equal to the "official_datatypes" dictionary provided below for every precinct file except for the individual state file for Texas. Texas provides voter turnout percentage statistics which were retained in the "votes" column, so "votes" will need to be read as float dtype for this individual file.
 
+* official_dtypes = {'precinct':str,'office':str, 'party_detailed':str, 
+		'party_simplified':str,'mode':str,'votes':int, 'county_name':str,
+		'county_fips':str, 'jurisdiction_name':str,'jurisdiction_fips':str,
+		'candidate':str, 'district':str, 'dataverse':str,'year':int,
+		'stage':str, 'state':str, 'special':str, 'writein':str, 'state_po':str,
+		'state_fips':str, 'state_cen':str, 'state_ic':str, 'date':str, 
+		'readme_check':str,'magnitude':int} 
+
 ## Alabama
 
 Updated data added 03-07-2022.
