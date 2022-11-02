@@ -1,7 +1,5 @@
 ## Fields:
-This markdown describes each field in the format "Datatype - [field description]".
-
-* When reading in data in Python, utilize "dtype" parameter of the "pd.read_csv()" command to retain proper formatting of string padded fields. The "dtype" parameter can be set equal to the "official_datatypes" dictionary provided below for every precinct file except for the individual state file for Texas. Texas provides voter turnout percentage statistics which were retained in the "votes" column, so "votes" will need to be read as float dtype for this individual file.
+This markdown file describes each field in the format "Datatype - [field description]".
 
 * official_dtypes = {'precinct':str,'office':str, 'party_detailed':str, 
 		'party_simplified':str,'mode':str,'votes':int, 'county_name':str,
@@ -61,7 +59,7 @@ NOTE: Retention elections include the name of the candidate and the yes/no optio
 ### district: 
 string - The district identifier for the race, given that it is substate. If the district is a state legislative or U.S. House race, then the district is string padded to be 3 digits long and with zeroes, i.e. State Senate district 3 would be equal to "003". Other substate units (wards, seats, etc) with multiple level are included if given, i.e. State District Court of the Sixth district and seat C, would be "006, seat C". For candidates with state wide jurisdictions, district is "STATEWIDE". For races without district info, the field is left blank "". 
 
-## magnitude: 
+### magnitude: 
 int - The number of candidates voted for in a given office-district race. The default is 1 (i.e. a single member winner take all district), with multimember districts having a magnitude matching the number of candidates who can win a race. This will be more common in local races and a select few states for their state house (i.e. NH). 
 
 NOTE: For entries for "REGISTERED VOTERS", "OVERVOTES" or similar stats, magnitude is coded as 0. When stats are related to a specific type of office, i.e. PRESIDENT - OVERVOTES, then the office's magnitude is used. 
