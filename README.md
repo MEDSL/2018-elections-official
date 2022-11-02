@@ -1,13 +1,4 @@
-
-# 2018-elections-official
-
-This is the MEDSL repository for official precinct returns for 2018 General Election.
-
- Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the individual_states folder above.
-
-![Screenshot](2018_precinct_progress_map_2022-03-17.png)
-
-The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
+This README lists the dates that we finished cleaning each state's data, along with any relevant issues we encountered.
 
 ## Alabama
 
