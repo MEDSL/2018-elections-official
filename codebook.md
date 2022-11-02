@@ -1,14 +1,6 @@
 ## Fields:
 This markdown file describes each field in the format "Datatype - [field description]".
 
-* official_dtypes = {'precinct':str,'office':str, 'party_detailed':str, 
-		'party_simplified':str,'mode':str,'votes':int, 'county_name':str,
-		'county_fips':str, 'jurisdiction_name':str,'jurisdiction_fips':str,
-		'candidate':str, 'district':str, 'dataverse':str,'year':int,
-		'stage':str, 'state':str, 'special':str, 'writein':str, 'state_po':str,
-		'state_fips':str, 'state_cen':str, 'state_ic':str, 'date':str, 
-		'readme_check':str,'magnitude':int} 
-
 ### precinct: 
 string - Identifier for the smallest election reporting unit of a state. 
 
